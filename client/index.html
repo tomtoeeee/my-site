@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doge's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="nav-item" href="main">Главная</a>
+        <a class="nav-item" href="about">О нас</a>
+        <a class="nav-item" href="achievements">Достижения</a>
+        <a class="nav-item" href="contacts">Контакты</a>
+      </nav>
+      <img src="images/menu.png" />
+    </header>
+
+    <main>
+      <h1 class="name-of-site">Сайт-Портфолио Doge</h1>
+      <div id="main">
+        <h1>Сайт в память о Doge</h1>
+        <p class ="profession">(rip Doge)</p>
+        <p class="description">. . .</p>
+
+        <img
+          width="300px"
+          height="200px"
+          src="https://images.ctfassets.net/sfnkq8lmu5d7/1wwJDuKWXF4niMBJE9gaSH/97b11bcd7d41039f3a8eb5c3350acdfd/2024-05-24_Doge_meme_death_-_Hero.jpg"
+          alt="Doge"
+        />
+      </div>
+      <div id="about">
+        <h2>О Doge</h2>
+        <p>Doge - пес породы сиба-ину, ставший символом интернета 2010-х.</p>
+        <p>Ее настоящее имя - Кабосу. Она скончалась в мае 2024 года, прожив 18 лет. </p>
+        <p>Эта страничка - память о ней.</p>
+
+      <img
+        width = "600px"
+        height = "400px"
+        src="https://media2.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Z3JoMDI3dWtpcXJva3RqYmYycm9wemMxZjJuaDcyNXh1NDMwZnlmcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/m0MfjLtKOgTPG/200w.webp"
+      
+      />
+      </div>
+      <div id="achivments">
+        <h2>Достижения и вклад Doge</h2>
+        
+        <ul>
+          <li>Глобальный мем, классика</li>
+          <li>Символ криптовалюты dogecoin</li>
+          <li>Неотъемлемая часть атмосферы ранней интернет-культуры</li>
+          <li>Миллионы поклонников по всему миру</li>
+        </ul>
+      </div>
+
+
+      <div id="contacts">
+        <h2>Обратная связь</h2>
+        <form>
+          <label for="name">Ваше имя</label>
+          <input id="name" name="name" type="text" placeholder="Кто Вы?" />
+          <label for="email">Ваш email</label>
+          <input
+            id="email"
+            name="email"
+            type="text"
+            placeholder="pomogite@mail.ru"
+          />
+          <label for="message">Ваше сообщение</label>
+          <textarea
+            id="message"
+            name="message"
+            type="text"
+            placeholder="Задайте вопрос или опишите ваше предложение. . ."
+          ></textarea>
+        </form>
+        <button id="button" class="form-btn" onclick="sendForm()">
+          Отправить сообщение
+        </button>
+      </section>
+    </main>
+    <footer>
+      <p>Все права защищены</p>
+      <a href="tel:+79123456789" target="_blank">Телефон</a>
+      <a href="mailto:ваш_email@example.com" target="_blank">Почта</a>
+    </footer>
+  </body>
+
+  <script src="main.js"></script>
+</html> 
