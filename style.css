@@ -1,0 +1,239 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    background: linear-gradient(135deg, #06040e, #23176d);
+    color: rgb(179, 176, 208);
+    font-size: 18px;
+    margin: 0;
+    font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+.site-block {
+    height: 100vh;
+    width: 100vw;
+    padding: 40px;
+}
+
+header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: flex;
+    backdrop-filter: blur(10px);
+    background: rgba(19, 13, 52, 0.7);
+    align-items: center;
+}
+
+
+main div {
+    height: 100vh;
+    width: 100vw;
+    padding: 40px;
+}
+
+
+header img {
+    width: 25px;
+    height: 25px;
+    display: flex;
+}
+
+
+nav {
+    width: 100vw;
+    padding: 30px;
+    background: rgba(19, 13, 52, 0.7);
+    display: flex;
+    text-align: center;
+
+}
+
+.nav-item {
+    font-size: 24px;
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(179, 176, 208);
+    transition: 0.6s;
+}
+
+.nav-item:hover {
+    font-size: 28px;
+}
+
+#main {
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 50px;
+    
+}
+
+.images-column {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;      
+  gap: 40px;       
+  
+}
+
+.doge {
+  max-width: 600px;
+}
+
+.pochemu {
+  max-width: 400px;
+}
+
+.main-text h2 {
+    font-size: 32px;
+}
+
+
+.profession{
+    font-size: 24px;
+     color: rgb(179, 176, 208);
+}
+
+.description {
+    font-size: 14px;
+    width: 500px;
+    opacity: 0.9;
+}
+
+#main img {
+    width: 450px;
+    height: 300px;
+    border-radius: 18px;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 50px;
+}
+
+.stonks{
+    margin-top: 70px;
+}
+
+.dogeee{
+    margin-top: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    outline: none;
+    width: 400px;
+    height: 35px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+textarea {
+    outline: none;
+    width: 300px;
+    height: 55px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+button {
+    background:  rgb(179, 176, 208);
+    
+    border-radius: 15px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+
+}
+
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10 px 20px rgba(0, 0, 0,0.3)
+}
+
+.gif_doge {
+    display: block;
+    margin: 50px auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+footer a {
+    text-align: center;
+    padding: 30px;
+    opacity: 0.6;
+}
+
+@media (max-width: 800px) {
+    header {
+        justify-content: end;
+    }
+
+    header img {
+        display: block;
+        margin: 40px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #main {
+        flex-direction: column;
+    }
+
+    .main-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description {
+        width: 100%;
+        text-align: center;
+    }
+    
+    input, textarea {
+        width: calc(100vw - 40px);
+    }
+
+    .site-block {
+        padding: 10px;
+    }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.summary {
+    position: absolute;
+    position: fixed;
+    position: relative;
+    position: static;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+
+    display: block;
+    display: none;
+} 
